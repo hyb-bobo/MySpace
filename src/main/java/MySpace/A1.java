@@ -10,7 +10,7 @@ public class A1 {
         A1 a1 = new A1();
 
         //电脑d盘中的abc.txt 文档
-        String filePath = "D:/abc.txt" ;
+        String filePath = "D:/1.txt" ;
         String reslut = a1.readFile( filePath ) ;
         System.out.println( reslut ); 
     }
