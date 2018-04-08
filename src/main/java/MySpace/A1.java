@@ -1,8 +1,6 @@
 package MySpace;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
+import java.io.*;
 
 public class A1 {
 
@@ -27,16 +25,28 @@ public class A1 {
         try {
             // 根据path路径实例化一个输入流的对象
             fis  = new FileInputStream( filePath );
-
+            InputStreamReader reader = new InputStreamReader(fis,"GBK");
             //2. 返回这个输入流中可以被读的剩下的bytes字节的估计值；
             int size =  fis.available() ;
             //3. 根据输入流中的字节数创建byte数组；
             byte[] array = new byte[size];
             //4.把数据读取到数组中；
-            fis.read( array ) ; 
+            fis.read( array ) ;
 
             //5.根据获取到的Byte数组新建一个字符串，然后输出；
-            result = new String(array); 
+            result = new String(array,"GB2312");
+
+            /*fis = new FileInputStream(filePath); // filePath为文件路径
+            // 声明一个字节数组
+            byte[] b = new byte[1024];
+            StringBuffer str = new StringBuffer();
+            int len ;
+            // 循环读取
+            while ((len = fis.read(b)) != -1) {
+                str.append(new String(b, 0, len,"GB2312"));
+            }
+
+            System.out.println(str.toString());*/
 
         } catch (FileNotFoundException e) {
             e.printStackTrace();
