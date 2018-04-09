@@ -36,8 +36,12 @@ public class A1 {
             //5.根据获取到的Byte数组新建一个字符串，然后输出；
             result = new String(array,"GB2312");
 
+            /**
+             * 以下这种方式不一定好  因为数组一开始就设定为具体的值
+             */
             /*fis = new FileInputStream(filePath); // filePath为文件路径
             // 声明一个字节数组
+
             byte[] b = new byte[1024];
             StringBuffer str = new StringBuffer();
             int len ;
