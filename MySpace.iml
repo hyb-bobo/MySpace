@@ -11,5 +11,20 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://D:/litai/apache-maven-3.5.0-bin/apache-maven-3.5.0/jar/commons-io-2.6" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="file://D:/litai/apache-maven-3.5.0-bin/apache-maven-3.5.0/jar/commons-io-2.6/docs" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="file://D:/litai/apache-maven-3.5.0-bin/apache-maven-3.5.0/jar/commons-io-2.6" />
+        </SOURCES>
+        <jarDirectory url="file://D:/litai/apache-maven-3.5.0-bin/apache-maven-3.5.0/jar/commons-io-2.6" recursive="false" />
+        <jarDirectory url="file://D:/litai/apache-maven-3.5.0-bin/apache-maven-3.5.0/jar/commons-io-2.6" recursive="false" type="SOURCES" />
+      </library>
+    </orderEntry>
   </component>
 </module>
