@@ -43,14 +43,14 @@ public class ShareData {
      * 原子性就是指对数据的操作是一个独立的、不可分割的整体。
      * 换句话说，就是一次操作，是一个连续不可中断的过程，数据不会执行的一半的时候被其他线程所修改。
      */
-//    public void addCount() {
-//        count++;
-//    }
+    public void addCount() {
+        count++;
+    }
 
     /**
      * 增加 synchronized 关键字
      */
-    public synchronized void addCount() {
-        count++;
-    }
+//    public synchronized void addCount() {
+//        count++;
+//    }
 }
