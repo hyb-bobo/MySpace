@@ -36,6 +36,14 @@ package javaConcurrent;
  　　（2）一个通过wait方法阻塞的线程，必须同时满足以下两个条件才能被真正执行：
  　　　　线程需要被唤醒（超时唤醒或调用notify/notifyll）。
  　　　　线程唤醒后需要竞争到锁（monitor）。
+
+
+
+
+
+ wait sleep区别
+ sleep方法的作用是让当前线程暂停指定的时间（毫秒），sleep方法是最简单的方法。
+ 最简单的区别是，wait方法依赖于同步，而sleep方法可以直接调用。而更深层次的区别在于sleep方法只是暂时让出CPU的执行权，并不释放锁。而wait方法则需要释放锁。
  */
 public class NotifyTest {
     public synchronized void testWait(){
