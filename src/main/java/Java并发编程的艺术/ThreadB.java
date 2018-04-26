@@ -20,6 +20,7 @@ public class ThreadB extends Thread {
         HasSelfPrivateNum hasSelfPrivateNum = new HasSelfPrivateNum();
         ThreadA threadA = new ThreadA(hasSelfPrivateNum);
         threadA.start();
+        threadA.setPriority(1);
         ThreadB threadB = new ThreadB(hasSelfPrivateNum);
         threadB.start();
     }
