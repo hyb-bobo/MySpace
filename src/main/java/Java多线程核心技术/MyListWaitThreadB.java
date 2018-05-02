@@ -1,6 +1,5 @@
 package Java多线程核心技术;
 
-import com.sun.org.apache.bcel.internal.generic.NEW;
 
 /**
  * Author: hyb
