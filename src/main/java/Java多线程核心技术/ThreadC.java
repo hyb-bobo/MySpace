@@ -6,15 +6,21 @@ package Java多线程核心技术;
  */
 public class ThreadC extends Thread {
     private modelConsume modelConsume;
+    private ModelConsume01 modelConsume01;
     public ThreadC(modelConsume modelConsume){
         super();
         this.modelConsume = modelConsume;
     }
 
+    public ThreadC(ModelConsume01 modelConsume01){
+        super();
+        this.modelConsume01 = modelConsume01;
+    }
+
     @Override
     public void run() {
         while (true){
-            modelConsume.getValue();
+            modelConsume01.getValue();
         }
     }
 
