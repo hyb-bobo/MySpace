@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da09233b-7401-4570-9e10-aceaaaf1beae" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Java多线程核心技术/MyListWaitThreadB.java" afterPath="$PROJECT_DIR$/src/main/java/Java多线程核心技术/MyListWaitThreadB.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Java多线程核心技术/MyListWait.java" afterPath="$PROJECT_DIR$/src/main/java/Java多线程核心技术/MyListWait.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,17 +18,17 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MyListWait.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MyListWait.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Java多线程核心技术/MyListWait.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+            <state relative-caret-position="133">
+              <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#221#222#0" expanded="true" />
-                <element signature="e#251#252#0" expanded="true" />
                 <element signature="e#275#276#0" expanded="true" />
-                <element signature="e#309#310#0" expanded="true" />
+                <element signature="e#305#306#0" expanded="true" />
+                <element signature="e#329#330#0" expanded="true" />
+                <element signature="e#363#364#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -46,7 +47,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyListWaitThreadB.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MyListWaitThreadB.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Java多线程核心技术/MyListWaitThreadB.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="38">
@@ -55,6 +56,16 @@
                 <element signature="e#218#219#0" expanded="true" />
                 <element signature="e#262#263#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -104,7 +115,6 @@
         <option value="$PROJECT_DIR$/src/main/java/Java并发编程的艺术/IntLock.java" />
         <option value="$PROJECT_DIR$/src/main/java/Java并发编程的艺术/TimeLock.java" />
         <option value="$PROJECT_DIR$/src/main/java/Java并发编程的艺术/FairLock.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/Java并发编程的艺术/DeadLockDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/Java并发编程的艺术/MultiCalc.java" />
         <option value="$PROJECT_DIR$/src/main/java/Java并发编程的艺术/MultiCalc1.java" />
@@ -143,9 +153,10 @@
         <option value="$PROJECT_DIR$/src/main/java/Java多线程核心技术/PrintString.java" />
         <option value="$PROJECT_DIR$/src/main/java/Java多线程核心技术/PrintStringNew.java" />
         <option value="$PROJECT_DIR$/src/main/java/Java多线程核心技术/AddCountThread.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Java多线程核心技术/MyListWait.java" />
         <option value="$PROJECT_DIR$/src/main/java/Java多线程核心技术/MyListWaitThread.java" />
         <option value="$PROJECT_DIR$/src/main/java/Java多线程核心技术/MyListWaitThreadB.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/java/Java多线程核心技术/MyListWait.java" />
       </list>
     </option>
   </component>
@@ -323,27 +334,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MyListWaitThreadB">
-    <configuration default="false" name="OutClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Java多线程核心技术.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="Java多线程核心技术.OutClass" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="MySpace" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.MyListWait">
     <configuration default="false" name="PrintString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -412,6 +403,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="Java多线程核心技术.MyListWaitThreadB" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="MySpace" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="MyListWait" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Java多线程核心技术.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Java多线程核心技术.MyListWait" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -812,19 +823,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.OutClass" />
-      <item index="1" class="java.lang.String" itemvalue="Application.PrintString" />
-      <item index="2" class="java.lang.String" itemvalue="Application.PrintStringNew" />
-      <item index="3" class="java.lang.String" itemvalue="Application.AddCountThread" />
-      <item index="4" class="java.lang.String" itemvalue="Application.MyListWaitThreadB" />
+      <item index="0" class="java.lang.String" itemvalue="Application.PrintString" />
+      <item index="1" class="java.lang.String" itemvalue="Application.PrintStringNew" />
+      <item index="2" class="java.lang.String" itemvalue="Application.AddCountThread" />
+      <item index="3" class="java.lang.String" itemvalue="Application.MyListWaitThreadB" />
+      <item index="4" class="java.lang.String" itemvalue="Application.MyListWait" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.MyListWaitThreadB" />
-        <item index="1" class="java.lang.String" itemvalue="Application.AddCountThread" />
-        <item index="2" class="java.lang.String" itemvalue="Application.PrintStringNew" />
-        <item index="3" class="java.lang.String" itemvalue="Application.PrintString" />
-        <item index="4" class="java.lang.String" itemvalue="Application.OutClass" />
+        <item index="0" class="java.lang.String" itemvalue="Application.MyListWait" />
+        <item index="1" class="java.lang.String" itemvalue="Application.MyListWaitThreadB" />
+        <item index="2" class="java.lang.String" itemvalue="Application.AddCountThread" />
+        <item index="3" class="java.lang.String" itemvalue="Application.PrintStringNew" />
+        <item index="4" class="java.lang.String" itemvalue="Application.PrintString" />
       </list>
     </recent_temporary>
   </component>
@@ -855,7 +866,7 @@
       <workItem from="1524616192971" duration="8991000" />
       <workItem from="1524637802450" duration="21950000" />
       <workItem from="1524788713818" duration="25023000" />
-      <workItem from="1525228367986" duration="9703000" />
+      <workItem from="1525228367986" duration="11076000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1522806301383</created>
@@ -1144,7 +1155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1525247120589</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="...">
+      <created>1525247194856</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1525247194856</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1162,7 +1180,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="154711000" />
+    <option name="totallyTimeSpent" value="156084000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
@@ -1292,13 +1310,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Java并发编程的艺术/TimeLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="28" lean-forward="false" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Java并发编程的艺术/BadSuspend.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
@@ -1648,12 +1659,12 @@
         <state relative-caret-position="194">
           <caret line="20" column="36" lean-forward="true" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
           <folding>
-            <element signature="e#152#153#0" expanded="true" />
-            <element signature="e#187#188#0" expanded="true" />
-            <element signature="e#270#271#0" expanded="true" />
-            <element signature="e#308#309#0" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#414#415#0" expanded="true" />
+            <element signature="e#152#153#0" expanded="false" />
+            <element signature="e#187#188#0" expanded="false" />
+            <element signature="e#270#271#0" expanded="false" />
+            <element signature="e#308#309#0" expanded="false" />
+            <element signature="e#367#368#0" expanded="false" />
+            <element signature="e#414#415#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1666,17 +1677,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Java多线程核心技术/MyListWait.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Java多线程核心技术/MyListWaitThreadB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        <state relative-caret-position="38">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#221#222#0" expanded="true" />
-            <element signature="e#251#252#0" expanded="true" />
-            <element signature="e#275#276#0" expanded="true" />
-            <element signature="e#309#310#0" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1691,13 +1707,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Java多线程核心技术/MyListWaitThreadB.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Java多线程核心技术/MyListWait.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state relative-caret-position="133">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
           <folding>
-            <element signature="e#218#219#0" expanded="true" />
-            <element signature="e#262#263#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#329#330#0" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
           </folding>
         </state>
       </provider>
