@@ -11,7 +11,13 @@ public class ProducerConsumerWithWaitNofity {
         ConsumerThread c1 = new ConsumerThread(resource);
         ConsumerThread c2 = new ConsumerThread(resource);
         ConsumerThread c3 = new ConsumerThread(resource);
-    
+
+        p1.setName("生产线程01");
+        p2.setName("生产线程02");
+        p3.setName("生产线程03");
+        c1.setName("消费线程01");
+        c2.setName("消费线程02");
+        c3.setName("消费线程03");
         p1.start();
         p2.start();
         p3.start();
