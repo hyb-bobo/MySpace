@@ -18,6 +18,9 @@ import java.util.Date;
 import java.util.List;
 
 import com.google.common.base.Charsets;
+import com.google.common.base.Joiner;
+import com.google.common.base.Splitter;
+import com.google.common.base.Strings;
 import com.google.common.io.Files;
 
 /**
@@ -32,7 +35,7 @@ import com.google.common.io.Files;
  */
 public class FileGuava {
 	public static void main(String[] args) {
-		try {
+		/*try {
 			File readFile = new File(System.getProperty("user.dir") + "/src/resources/showarp.txt");
 			StringBuilder content = new StringBuilder();
 			if (readFile.exists()) {
@@ -46,7 +49,33 @@ public class FileGuava {
 			writeFile(content.toString(), writeFile);
 		} catch (Exception e) {
 			e.printStackTrace();
-		}
+		}*/
+		/*String method = getMethod1();
+
+		System.out.println(method);
+
+		String[] split = "foo, bar,,   qux,".split(",");
+		System.out.println(split.toString());*/
+		boolean method2 = getMethod2("2222");
+		System.out.println(method2);
+	}
+
+	private static String getMethod(){
+//		Joiner joiner = Joiner.on("; ").skipNulls();
+		Joiner joiner = Joiner.on("; ");
+// returns "Harry; Ron; Hermione
+//		return joiner.join("Harry", null, "Ron", "Hermione");
+		return joiner.useForNull("--").join("Harry", null, "Ron", "Hermione");
+	}
+
+	private static String getMethod1(){
+		Iterable<String> split = Splitter.on(',').split("foo, bar,,   qux,");
+		return split.toString();
+	}
+
+	private static boolean getMethod2(String res){
+		boolean invalid = Strings.isNullOrEmpty(res);
+		return invalid;
 	}
 
 	/**
