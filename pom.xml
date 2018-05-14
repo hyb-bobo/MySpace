@@ -82,6 +82,14 @@
             <version>1.11.2</version>
         </dependency>
         <!--jsoup-->
+
+        <!--guava-->
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>20.0</version>
+        </dependency>
+        <!--guava-->
     </dependencies>
     <!--<dependencies>
         <dependency>
