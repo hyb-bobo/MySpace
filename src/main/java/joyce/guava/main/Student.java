@@ -83,4 +83,11 @@ public class Student {
 		this.stuName = stuName;
 		this.stuAge = stuAge;
 	}
+
+
+	public static void main(String... args) {
+
+	}
+
+
 }
