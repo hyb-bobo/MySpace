@@ -8,6 +8,7 @@
     </JAVADOC>
     <SOURCES>
       <root url="jar://D:/worksoft/apache-maven-3.3.1/responsity_taotao/com/google/guava/guava/20.0/guava-20.0-sources.jar!/" />
+      <root url="jar://D:/worksoft/apache-maven-3.3.1/responsity_taotao/com/google/guava/guava/20.0/guava-20.0.jar!/" />
     </SOURCES>
   </library>
 </component>
