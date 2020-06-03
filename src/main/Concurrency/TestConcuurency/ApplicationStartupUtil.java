@@ -42,7 +42,6 @@ public class ApplicationStartupUtil {
         //Now wait till all services are checked
         _latch.await();
 
-        System.out.println("哈哈哈哈哈哈");
         //Services are file and now proceed startup
         for (final BaseHealthChecker v : _services) {
             if (!v.isServiceUp()) {
