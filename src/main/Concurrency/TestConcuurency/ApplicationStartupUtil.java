@@ -48,6 +48,11 @@ public class ApplicationStartupUtil {
         System.out.println("哈哈哈哈哈哈");
         System.out.println("哈哈哈哈哈哈");
         System.out.println("哈哈哈哈哈哈");
+        System.out.println("唐良瀛无敌啊");
+        System.out.println("唐良瀛无敌啊");
+        System.out.println("唐良瀛无敌啊");
+        System.out.println("唐良瀛无敌啊");
+        System.out.println("唐良瀛无敌啊");
         //Services are file and now proceed startup
         for (final BaseHealthChecker v : _services) {
             if (!v.isServiceUp()) {
