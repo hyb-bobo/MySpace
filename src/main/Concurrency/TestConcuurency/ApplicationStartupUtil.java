@@ -71,11 +71,16 @@ public class ApplicationStartupUtil {
         System.out.println("唐良瀛无敌啊11111");
         System.out.println("唐良瀛无敌啊111111");
         System.out.println("唐良瀛无敌啊111111111");
-System.out.println("唐良瀛无敌啊11314");
-System.out.println("唐良瀛无敌啊11314");
-System.out.println("唐良瀛无敌啊11314");
-System.out.println("唐良瀛无敌啊11314");
-System.out.println("唐良瀛无敌啊11314");
+        System.out.println("唐良瀛无敌啊11314");
+        System.out.println("唐良瀛无敌啊11314");
+        System.out.println("唐良瀛无敌啊11314");
+        System.out.println("唐良瀛无敌啊11314");
+        System.out.println("唐良瀛无敌啊11314");
+        System.out.println("唐良瀛无敌啊11314");
+        System.out.println("唐良瀛无敌啊11314");
+        System.out.println("唐良瀛无敌啊11314");
+        System.out.println("唐良瀛无敌啊11314");
+        System.out.println("唐良瀛无敌啊11314");
         //Services are file and now proceed startup
         for (final BaseHealthChecker v : _services) {
             if (!v.isServiceUp()) {
